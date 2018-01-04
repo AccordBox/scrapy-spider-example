@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'scrapy_spider.pipelines.ScrapySpiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'scrapy_spider.pipelines.ScrapySpiderPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,3 +88,14 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+CONNECTION_STRING = "mysql://{user}:{passwd}@{host}:{port}/{db_name}?charset=utf8".format(
+    user="root",
+    passwd="start",
+    host="192.168.1.2",
+    port="3306",
+    db_name="quote_toscrape",
+)
+
+
+

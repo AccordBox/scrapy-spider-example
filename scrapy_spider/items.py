@@ -8,7 +8,6 @@
 import scrapy
 
 
-class ScrapySpiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class QuoteItem(scrapy.Item):
+    author = scrapy.Field()
+    quote = scrapy.Field()
