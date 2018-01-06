@@ -10,6 +10,10 @@ You can find Scrapy spider example code which can help you:
 
 4. How to define Scrapy item, and how to create a custom Item Pipeline to save the data of Item into Databases such as Mysql or PostgreSQL.
 
+## Feedback
+
+If you have any problem, feel free to fire issues in Github, I will reply ASAP.
+
 ## Contact
 
-<div class="typeform-widget" data-url="https://michaelyin.typeform.com/to/ssbyVo" data-transparency="40" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=ssbyVo&amp;utm_source=typeform.com-11567928-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+You can contact me `admin#michaelyin.info`
