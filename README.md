@@ -6,9 +6,11 @@ You can find Scrapy spider example code which can help you:
 
 2. How to handle pagination in Scrapy spider.
 
-3. A simple script which can make you Scrapy shell more powerful.
+3. A simple script which can make your Scrapy shell more powerful.
 
 4. How to define Scrapy item, and how to create a custom Item Pipeline to save the data of Item into Databases such as Mysql or PostgreSQL.
+
+5. All the code can run without problem in Python2 and Python3
 
 ## Feedback
 
